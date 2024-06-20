@@ -1,0 +1,285 @@
+.span-1{
+  color: red;
+}
+
+.header-apart{
+  color: rgb(255, 0, 0);
+  background-color: rgb(25, 182, 174);
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: inset;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+}
+
+.header-apart img {
+  width: 30%; /* Ajusta el ancho de la imagen según necesites */
+}
+
+
+.h3-00{
+  position: relative;
+  text-align: center;
+  font-family: "Poetsen One", sans-serif;
+  font-size: 70px;
+  color: rgb(8, 219, 156);
+  background-color: black;
+}
+
+.poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.boton-link {
+  background-color: rgb(34, 141, 212);
+  border-radius: 10px; /* Ajusta el radio de borde según necesites */
+  color: white;
+  padding: 10px 20px; /* Ajusta el padding según necesites */
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.boton-link:hover {
+  background-color: rgb(32, 148, 51);
+  color: white;
+}
+
+.boton-link:active {
+  color: rgb(255, 0, 0);
+}
+
+.menu__item {
+  color: black;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  padding-top: 80px;
+}
+
+.botones {
+        background-color: red;
+}
+
+.bitter-EDS> {  
+    font-family: "Bitter", serif;
+    font-optical-sizing:auto;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+  .nanum-myeongjo-regular {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+  h2{
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 70px;
+}
+
+
+
+
+
+.foot-eds{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+}
+.foot-eds2{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+}
+
+.foot-right{
+  position:relative;
+  top: 1128%;
+  padding-inline: 40%;
+  
+}
+
+.foot-color{
+  background-color: rgb(41, 39, 39);
+  color: white;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.contenedor-imagenes {
+  display: flex; 
+  width: 10%;
+  flex-wrap: wrap;
+}
+
+.contenedor-imagenes img {
+ 
+    box-sizing: border-box;
+    padding: 5%;
+   width: 70%;
+   max-width: 70%;
+   height: auto;
+   
+}
+
+.contenedor-productos {
+  position: relative;
+  display: inline-block; 
+  flex-direction: column;
+}
+
+.boton-productos {
+  position:relative;
+  left: 20%;
+  transform: translate(50%, -1%);
+  padding: 10px 10px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.boton-link{
+  
+  background-color: white;
+  border-radius: 35px;
+  color: blueviolet;
+}
+
+.p.gps{
+  width: 30px;
+  height: auto;
+}
+
+.text-with-image {
+  float: right; /* Hace que la imagen flote hacia la derecha */
+  margin-left: 5px; /* Añade un espacio entre el texto y la imagen */
+  top: 30px;
+  
+}
+
+.contenedor-imgtext1 {
+  position: relative;
+  display: inline-block; /* Para que el contenedor se ajuste al tamaño de la imagen */
+  
+  
+}
+
+.text-img1 {
+  position: absolute;
+  top: 115%; /* Posiciona el texto en el centro verticalmente */
+  left: 3%; /* Posiciona el texto en el centro horizontalmente */
+  transform: translate(210%, -60%); /* Centra el texto */
+  color: rgb(255, 255, 255); /* Color del texto */
+  font-size: 50px; /* Tamaño de fuente del texto */
+  padding: 5px; /* Espaciado interno del texto */
+  text-align: center;
+  
+  
+}
+.img-border{
+  border-radius: 10%;
+}
+
+.contenedor-imgtext2 {
+  position: center;
+  display: inline-block; /* Para que el contenedor se ajuste al tamaño de la imagen */
+  
+}
+
+.text-img2 {
+  position: absolute;
+  top: 187%; /* Posiciona el texto en el centro verticalmente */
+  left: 0px; /* Posiciona el texto en el centro horizontalmente */
+  transform: translate(3%, -75%); /* Centra el texto */
+  color: rgb(255, 255, 255); /* Color del texto */
+  font-size: 50px; /* Tamaño de fuente del texto */
+  padding: 10px; /* Espaciado interno del texto */
+}
+.img-nuevos{
+  position: relative;
+  transform: translate(10%, -30%);
+  border-radius: 35%;
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.font-h4{
+font-family: "Bebas Neue", sans-serif;
+font-size: 40px;
+}
+.font-h4v2{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
+  position: absolute;
+  top: 400px;
+  text-align: right;
+}
+
+.font-2 {
+  font-family: "Playwrite SK", cursive;
+  font-optical-sizing: auto;
+  font-weight:100;
+  font-style: normal;
+  color: black;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas iguales */
+  gap: 20px; /* Espacio entre las cajas */
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.item {
+  background-color: aqua;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.font-contact {
+  font-family: "Playwrite FR Moderne", cursive;
+  font-optical-sizing:auto;
+  font-weight: 150%;
+  font-style:normal;
+  font-size: 300%;
+}
+
+@media (max-width: 593px) {
+  .container {
+      grid-template-columns: no-repeat(1, 1fr); /* Cambia a una sola columna */
+      padding: 20px; /* Ajusta el padding para dispositivos móviles */
+  }
+
+  .item {
+      font-size: 1rem; /* Ajusta el tamaño de fuente para dispositivos móviles */
+  }
+}
